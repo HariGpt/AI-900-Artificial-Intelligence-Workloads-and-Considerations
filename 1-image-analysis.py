@@ -11,8 +11,8 @@ class colors:
     reset = '\033[0m'
 
 # Paste your endpoint and key below
-cog_endpoint = "Paste_endpoint_here"
-cog_key = "Paste_key_here"
+cog_endpoint = "https://southcentralus.api.cognitive.microsoft.com/"
+cog_key = "8ef41fbf84514558b2da444a2d3fd5da"
 computervision_client = ComputerVisionClient(cog_endpoint, CognitiveServicesCredentials(cog_key))
 
 
